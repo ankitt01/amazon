@@ -17,7 +17,7 @@ const Header = () => {
             </div>
             <div className='text-white flex items-center text-xs space-x-6 mx-6'>
                 <div className='link cursor-pointer hover:underline'>
-                    <p>Hello Ankit</p>
+                    <p>Hello, Ankit</p>
                     <p className='font-bold md:text-sm'>Account & Lists</p>
                 </div>
                 <div className='link cursor-pointer hover:underline'>
@@ -31,7 +31,21 @@ const Header = () => {
                 </div>
             </div>
         </div>
-        
+        <div className='flex items-center space-x-3 p-1 pl-6 bg-amazon_blue-light text-white text-sm'>
+            <p className='cursor-pointer hover:underline flex items-center'>
+                <MenuIcon className='h-6 mr-1' />
+                All
+            </p>
+            <p className='cursor-pointer hover:underline'>Fresh</p>
+            <p className='cursor-pointer hover:underline'>Best Sellers</p>
+            <p className='cursor-pointer hover:underline'>Gift Cards</p>
+            <p className='cursor-pointer hover:underline'>Buy Again</p>
+            <p className='hidden lg:inline-flex cursor-pointer hover:underline'>Health, Households & Personal Care</p>
+            <p className='hidden lg:inline-flex cursor-pointer hover:underline'>Kindle eBooks</p>
+            <p className='hidden lg:inline-flex cursor-pointer hover:underline'>Home Improvements</p>
+            <p className='hidden lg:inline-flex cursor-pointer hover:underline'>Amazon Basics</p>
+            <p className='hidden lg:inline-flex cursor-pointer hover:underline'>Baby</p>
+        </div>
     </header>
   )
 }
