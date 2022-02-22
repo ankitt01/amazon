@@ -1,10 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import {MenuIcon, SearchIcon, ShoppingCartIcon} from "@heroicons/react/outline";
-import { useSession, signIn, signOut } from "next-auth/react"
-
-
-
+import {
+    MenuIcon, SearchIcon, ShoppingCartIcon
+} from "@heroicons/react/outline"
 
 const Header = () => {
   return (
